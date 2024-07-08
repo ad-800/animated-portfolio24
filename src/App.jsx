@@ -4,15 +4,15 @@ import Test from './components/test.jsx'
 
 const App = () => {
   return <div>
-    {/* <section><NavBar /></section>
-    <section>Parallax</section>
+    <section id='Home'><NavBar /></section>
+    <section id='Services'>Parallax</section>
     <section>Services</section>
-    <section>Parallax</section>
+    <section id='Portfolio'>Parallax</section>
     <section>Portfolio_1</section>
     <section>Portfolio_2</section>
     <section>Portfolio_3</section>
-    <section>Contact</section> */}
-    <Test />
+    <section id='Contact'>Contact</section>
+    {/* <Test /> */}
   </div>;
 };
 
