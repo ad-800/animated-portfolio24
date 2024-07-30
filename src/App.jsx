@@ -3,11 +3,14 @@ import NavBar from './components/NavBar/NavBar.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Parallax from './components/Parallax/Parallax.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
-import Test from './components/test.jsx'
 import Services from './components/Services/services.jsx';
+import Contact from './components/Contact/contact.jsx';
+import Cursor from './components/Cursor/Cursor.jsx';
+import Test from './components/test.jsx'
 
 const App = () => {
   return <div>
+    <Cursor/>
     <section id='Home'>
       <NavBar/>
       <Hero/>
@@ -22,7 +25,9 @@ const App = () => {
       <Parallax type='portfolio'/>
     </section>
     <Portfolio/>
-    <section id='Contact'>Contact</section>
+    <section id='Contact'>
+      <Contact />
+    </section>
     {/* <Test /> */}
   </div>;
 };
