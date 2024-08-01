@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className='social'>
           <a href='#'><img src='/linkedin.png' alt='linkedIn'/></a>
           <a href='#'><img src='/github.png' alt='github'/></a>
-          <a href='#'><img src='/medium.png' className='img--medium' alt='medium'/></a>
+          <a href='#'><img src='/medium.png' alt='medium'/></a>
         </div>
       </div>
     </div>
