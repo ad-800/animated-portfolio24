@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Cursor/>
       <section id='Home'><Home/></section>
-      <Portfolio/>
+      {/* <Portfolio/> */}
     </>
   )
 }

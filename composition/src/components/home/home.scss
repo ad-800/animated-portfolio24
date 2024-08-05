@@ -1,3 +1,68 @@
+@import './../../app.scss';
+
 .home {
-  
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  .navbar {
+    height: 100px;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @include mobile {
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
+    img {
+      height: 35px;
+    }
+
+    .social {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 700px solid #088798;
+    border-right: 1300px solid transparent;
+    position: absolute;
+    top: 0;
+  }
+
+  .name {
+    position: absolute;
+    transform: rotate(332deg);
+    top: 200px;
+    left: 220px;
+    display: flex;
+    padding: 20px;
+    height: 250px;
+    color: #088798;
+    background-color: #1F1915;
+
+    .first {
+      color: #F7E7C5;
+    }
+
+    .subtitle {
+      color: #F6C93C;
+    }
+  }
+
+  .about {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
