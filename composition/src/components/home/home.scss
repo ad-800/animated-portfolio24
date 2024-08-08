@@ -24,7 +24,18 @@
 
     .social {
       display: flex;
-      gap: 20px;
+      gap: 40px;
+
+      .brand {
+        font-size: 40px;
+        color: #DF1E09;
+        opacity: 0.6;
+        transition: 0.3s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
   }
 
@@ -35,6 +46,16 @@
     border-right: 1300px solid transparent;
     position: absolute;
     top: 0;
+  }
+
+  .circle {
+    background-color: #DF1E09;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 100px;
+    left: 150px;
   }
 
   .name {
@@ -58,11 +79,15 @@
   }
 
   .about {
-    border: 1px solid red;
-    height: 100px;
-    width: 100px;
+    border: 3px solid #DF1E09;
+    width: 400px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 50px;
+    right: 100px;
+    display: flex;
+    align-items: end;
+    text-align: right;
+    line-height: 22px;
+    padding: 60px 50px 30px 5px;
   }
 }
