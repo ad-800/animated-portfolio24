@@ -24,10 +24,10 @@
 
     .social {
       display: flex;
-      gap: 40px;
+      gap: 30px;
 
       .brand {
-        font-size: 40px;
+        font-size: 30px;
         color: #DF1E09;
         opacity: 0.6;
         transition: 0.3s;
@@ -42,8 +42,8 @@
   .triangle {
     width: 0;
     height: 0;
-    border-top: 700px solid #088798;
-    border-right: 1300px solid transparent;
+    border-top: 600px solid #088798;
+    border-right: 1200px solid transparent;
     position: absolute;
     top: 0;
   }
@@ -54,15 +54,16 @@
     width: 200px;
     position: absolute;
     border-radius: 50%;
-    bottom: 100px;
+    bottom: 75px;
     left: 150px;
+    z-index: 100;
   }
 
   .name {
     position: absolute;
     transform: rotate(332deg);
-    top: 200px;
-    left: 220px;
+    top: 150px;
+    left: 250px;
     display: flex;
     padding: 20px;
     height: 250px;
@@ -83,11 +84,12 @@
     width: 400px;
     position: absolute;
     bottom: 50px;
-    right: 100px;
+    right: 50px;
     display: flex;
+    flex-direction: column;
     align-items: end;
     text-align: right;
     line-height: 22px;
-    padding: 60px 50px 30px 5px;
+    padding: 60px 20px 30px 15px;
   }
 }
