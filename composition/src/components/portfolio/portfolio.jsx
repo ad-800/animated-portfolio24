@@ -16,13 +16,14 @@ const Portfolio = () => {
   const items = [
     {
       id: 1,
-      title: 'Project One',
+      title: 'Exquisite Corps',
+      subtitle: 'surrealist multi-player game',
       image: 'https://images.pexels.com/photos/24460824/pexels-photo-24460824/free-photo-of-esb-among-lower-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.'
     },
     {
       id: 2,
-      title: 'Project Two',
+      title: 'Taskmaster AI Project',
       image: 'https://images.pexels.com/photos/24460824/pexels-photo-24460824/free-photo-of-esb-among-lower-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.'
     },
@@ -34,7 +35,8 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Project Four',
+      title: 'Previous Story Book Portfolio',
+      subtitle: '',
       image: 'https://images.pexels.com/photos/24460824/pexels-photo-24460824/free-photo-of-esb-among-lower-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam.'
     },

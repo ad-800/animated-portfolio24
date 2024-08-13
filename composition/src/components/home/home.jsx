@@ -38,7 +38,7 @@ const Home = () => {
         stiffness: 100,
         delay: 1,
       }
-    }
+    },
   }
 
   return (
@@ -71,12 +71,10 @@ const Home = () => {
         <h2 className='subtitle'>Dev & Designer</h2>
       </div>
       <div className="about">
-        <p style={{ marginBottom: '5px' }}>Hello, I'm Addy.</p>
-        <p>
-          I am a software engineer based out of Philly, PA.
-          I love making &nbsp;things, collaborating with creative &nbsp;&nbsp;people,
-          and climbing rocks. I am a &nbsp;&nbsp;teacher and writer turned programmer
-          looking to continue learning and &nbsp;&nbsp;crafting new products.
+        <p style={{ marginBottom: '5px' }}><b>Hello, I'm Addy.</b></p>
+        <p>I am a software engineer based out of Philly, PA.</p>
+        <p>I love making things, collaborating with creative people, and climbing rocks.</p>
+        <p>I am a teacher and writer turned programmer looking to continue learning and crafting new products.
         </p>
       </div>
     </div>

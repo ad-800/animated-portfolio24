@@ -9,8 +9,8 @@
     left: 0;
     padding-top: 50px;
     text-align: center;
-    color: orange;
-    font-size: 36px;
+    color: #088798;
+    font-size: 26px;
 
     @include mobile {
       padding-top: calc(100vh - 100px);
@@ -19,7 +19,7 @@
 
     .progress-bar {
       height: 10px;
-      background-color: white;
+      background-color: #1F1915;
     }
   }
 
@@ -78,15 +78,12 @@
         }
 
         h2 {
-          font-size: 72px;
-
           @include mobile {
             font-size: 36px;
           }
         }
 
         p {
-          font-size: 20px;
           color: gray;
 
           @include mobile {
@@ -95,11 +92,11 @@
         }
 
         button {
-          background-color: orange;
+          background-color: #088798;
           border: none;
-          border-radius: 10px;
-          width: 200px;
-          padding: 20px;
+          width: 100px;
+          padding: 10px;
+          color: white;
           cursor: pointer;
         }
       }
