@@ -41,13 +41,16 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper" id={item.id}>
           <div className="image-container" ref={ref}>
-            <img src={item.image} alt="" />
+            { item.id !== 'animated-portfolio' ?
+              <img src={item.image} alt="" /> :
+              <div></div>
+            }
           </div>
           <motion.div className="text-container" style={{ y }}>
             <h2>{item.title}</h2>
             <h3>{item.subtitle}</h3>
             <p>{item.description}</p>
-            <button>See Demo</button>
+            <button>{item.buttonText ? item.buttonText : 'See Demo'}</button>
           </motion.div>
         </div>
       </div>

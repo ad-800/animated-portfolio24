@@ -24,14 +24,16 @@ export const items = [
     id: 'animated-portfolio',
     title: "'24 Composition",
     subtitle: 'Animated Portfolio',
+    buttonText: 'See Code',
     image: 'https://images.pexels.com/photos/1493226/pexels-photo-1493226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     description: 'This portfolio uses framer-motion animation libary for scroll, spring, and tranformation effects. Inspired by the graphic and typographic styles of the constructivism art movement. See Figma portfolio here.'
   },
   {
     id: 'story-book-portfolio',
-    title: 'Story Book Portfolio',
-    subtitle: 'Pre-tech career projects',
-    image: '../../../public/story-book-portfolio.png',
-    description: 'Previously built porfolio pre-2023 using Flask and simple HTML/CSS. Includes projects done in Ruby on Rails and outside the world of tech. Inspired by Wes Anderson. ',
+    title: 'STORY BOOK PORTFOLIO',
+    subtitle: 'Pre-Tech Career Projects',
+    image: '../../../public/story-book.png',
+    buttonText: 'Go to Website',
+    description: 'Previously built portfolio using Flask and simple HTML/CSS. Includes projects done in Ruby on Rails and outside the world of tech. Inspired by Wes Anderson. ',
   },
 ]
