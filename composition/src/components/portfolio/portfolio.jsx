@@ -41,7 +41,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper" id={item.id}>
           <div className="image-container" ref={ref}>
-            { item.id !== 'animated-portfolio' ?
+            { item.image ?
               <img src={item.image} alt="" /> :
               <div></div>
             }

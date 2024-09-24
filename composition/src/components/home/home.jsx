@@ -72,9 +72,8 @@ const Home = () => {
       </div>
       <div className="about">
         <p style={{ marginBottom: '5px' }}><b>Hello, I'm Addy.</b></p>
-        <p>I am a software engineer based out of Philly, PA.</p>
-        <p>I love making things, collaborating with creative people, and climbing rocks.</p>
-        <p>I am a teacher and writer turned programmer looking to continue learning and crafting new products.
+        <p>
+          I am a software engineer based out of Philly, PA. I love making things, collaborating with creative people, and climbing rocks. I am a teacher and writer turned programmer looking to continue learning and crafting new products.
         </p>
       </div>
     </div>
