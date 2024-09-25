@@ -2,6 +2,7 @@ import './portfolio.scss'
 import { useRef } from 'react'
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import { items } from './constants';
+import Diagram from './diagram';
 
 const Portfolio = () => {
   const ref = useRef()
@@ -41,16 +42,14 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper" id={item.id}>
           <div className="image-container" ref={ref}>
-            { item.image ?
-              <img src={item.image} alt="" /> :
-              <div></div>
-            }
+            { item.image && <img src={item.image} alt="" /> }
+            { item.diagram && <Diagram/> }
           </div>
           <motion.div className="text-container" style={{ y }}>
             <h2>{item.title}</h2>
             <h3>{item.subtitle}</h3>
             <p>{item.description}</p>
-            <button>{item.buttonText ? item.buttonText : 'See Demo'}</button>
+            {item.buttonText && <a href={item.buttonLink}><button>{item.buttonText}</button></a>}
           </motion.div>
         </div>
       </div>
