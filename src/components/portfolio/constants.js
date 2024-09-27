@@ -18,7 +18,7 @@ export const items = [
     title: "'24 Composition",
     subtitle: 'Animated Portfolio',
     buttonText: 'See Code',
-    buttonLink: 'https://github.com/ad-800/animated-portfolio24/tree/main/composition',
+    buttonLink: 'https://github.com/ad-800/animated-portfolio24',
     animation: true,
     description: 'This portfolio uses the framer-motion animation libary for scroll, spring, and tranformation effects. Inspired by the graphic and typographic styles of the constructivism art movement.'
   },
