@@ -3,6 +3,7 @@ import { useRef } from 'react'
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import { items } from './constants';
 import Diagram from './diagram';
+import Animation from './animation';
 
 const Portfolio = () => {
   const ref = useRef()
@@ -44,6 +45,7 @@ const Single = ({ item }) => {
           <div className="image-container" ref={ref}>
             { item.image && <img src={item.image} alt="" /> }
             { item.diagram && <Diagram/> }
+            { item.animation && <Animation /> }
           </div>
           <motion.div className="text-container" style={{ y }}>
             <h2>{item.title}</h2>

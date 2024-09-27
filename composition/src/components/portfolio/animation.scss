@@ -1,0 +1,63 @@
+
+.animation {
+  position: relative;
+  height: 100%;
+
+  .black-rec {
+    height: 100px;
+    width: 364px;
+    background-color: #1F1915;
+    opacity: 0.9;
+    transform: skewX(29deg);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 136px;
+  }
+
+  .white-rec {
+    height: 158px;
+    width: 153px;
+    background-color: white;
+    opacity: 0.7;
+    transform: skewX(-29deg);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 165px;
+    z-index: 5;
+  }
+
+  .yellow-rec {
+    height: 191px;
+    width: 53px;
+    background-color: #F6C93C;
+    transform: skewX(29deg);
+    opacity: .9;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 73px;
+    right: 0px;
+    top: 80px;
+  }
+
+  .red-circ {
+    background-color: #DF1E09;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    opacity: 0.6;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 103px;
+    right: 0;
+    top: 99px;
+    z-index: 10;
+  }
+}
