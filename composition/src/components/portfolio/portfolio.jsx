@@ -51,7 +51,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <h3>{item.subtitle}</h3>
             <p>{item.description}</p>
-            {item.buttonText && <a href={item.buttonLink}><button>{item.buttonText}</button></a>}
+            {item.buttonText && <a target="_blank" href={item.buttonLink}><button>{item.buttonText}</button></a>}
           </motion.div>
         </div>
       </div>

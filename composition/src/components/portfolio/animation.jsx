@@ -1,5 +1,4 @@
 import './animation.scss'
-import { motion } from 'framer-motion'
 
 const Animation = () => {
   return (

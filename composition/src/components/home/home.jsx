@@ -2,7 +2,6 @@ import './home.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { motion } from 'framer-motion'
 
 const Home = () => {
@@ -45,9 +44,8 @@ const Home = () => {
     <div className='home'>
       <div className='navbar'>
         <div className='social'>
-          <FontAwesomeIcon icon={faLinkedin} className='brand'/>
-          <FontAwesomeIcon icon={faGithub} className='brand' />
-          <FontAwesomeIcon icon={faMedium} className='brand' />
+          <a target="_blank" href="https://www.linkedin.com/in/adalynecummins/"><FontAwesomeIcon icon={faLinkedin} className='brand'/></a>
+          <a target="_blank" href="https://github.com/ad-800"><FontAwesomeIcon icon={faGithub} className='brand' /></a>
         </div>
       </div>
       <motion.div
@@ -71,7 +69,7 @@ const Home = () => {
         <h2 className='subtitle'>Dev & Designer</h2>
       </div>
       <div className="about">
-        <p style={{ marginBottom: '5px' }}><b>Hello, I'm Addy.</b></p>
+        <p style={{ marginBottom: '5px' }}><b>Hello, I&apos;m Addy.</b></p>
         <p>
           I am a software engineer based out of Philly, PA. I love making things, collaborating with creative people, and climbing rocks. I am a teacher and writer turned programmer looking to continue learning and crafting new products.
         </p>

@@ -1,13 +1,5 @@
 export const items = [
   {
-    id: 'exquisite-corps',
-    title: 'Exquisite_Corps',
-    subtitle: 'surrealist multi-player game',
-    buttonText: 'See Code',
-    image: 'exquisite-corps.jpg',
-    description: 'Current project using webhooks, ruby on rails, postgres, and react. Users can play surrealist writing and drawing games with friends. An odd, little social media platform for writers and artists.'
-  },
-  {
     id: 'static-scan-tool',
     title: 'Static Scan Swagger Tool',
     subtitle: 'API Certification Interface',
@@ -29,6 +21,15 @@ export const items = [
     buttonLink: 'https://github.com/ad-800/animated-portfolio24',
     animation: true,
     description: 'This portfolio uses the framer-motion animation libary for scroll, spring, and tranformation effects. Inspired by the graphic and typographic styles of the constructivism art movement.'
+  },
+  {
+    id: 'exquisite-corps',
+    title: 'Exquisite_Corps',
+    subtitle: 'surrealist multi-player game',
+    buttonText: 'See Code',
+    buttonLink: 'https://github.com/ad-800/eqxcorps',
+    image: 'exquisite-corps.jpg',
+    description: 'Current project using webhooks, ruby on rails, postgres, and react. Users can play surrealist writing and drawing games with friends. An odd, little social media platform for writers and artists.'
   },
   {
     id: 'story-book-portfolio',
