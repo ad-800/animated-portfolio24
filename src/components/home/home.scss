@@ -7,8 +7,7 @@
 
   .navbar {
     height: 100px;
-    max-width: 1366px;
-    margin: auto;
+    margin-right: 2em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -67,7 +66,7 @@
     border-radius: 50%;
     bottom: 75px;
     left: 150px;
-    z-index: 100;
+    z-index: 6;
 
     @include mobile {
       height: 150px;
@@ -87,6 +86,7 @@
     height: 250px;
     color: #088798;
     background-color: #1F1915;
+    z-index: 10;
 
     .first {
       color: #F7E7C5;
@@ -105,7 +105,7 @@
 
     h1 {
       @include mobile {
-        font-size: 50px;
+        font-size: 30px;
       }
 
       @include tablet {
@@ -125,7 +125,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding-right: 65px;
     }
   }
 
